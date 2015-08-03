@@ -1,8 +1,0 @@
-CREATE TABLE `blogv1`.`categories` (
-  `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
-  `name` VARCHAR(45) NULL COMMENT '',
-  `rank` INT NULL DEFAULT 0 COMMENT '',
-  PRIMARY KEY (`id`)  COMMENT '')
-ENGINE = MyISAM
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_turkish_ci;
