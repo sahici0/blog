@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\xampp\htdocs\work\blogV1\Kişisel Blog V1.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/work/blogV1/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/work/blogV1/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\xampp\htdocs\work\blogV1\theme\gray\admin;"/><added value=""/><lastopfiles>
+	</lastopfiles>
+	<errors version="4.5">
+	</errors>
+	<codestructure version="4.6.1">
+		<phptree>
+			<treenode node="config.php;PHP:PHP Include;C:\xampp\htdocs\work\blogV1\Codelobster0.php;f9;1;19;1;;C:\xampp\htdocs\work\blogV1\index.php;f9;1;19;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="DB_CHARSET;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f9;19;19;19;;;;vpos;;v;;r'UTF8';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="DB_HOST;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f9;13;16;13;;;;vpos;;v;;r'localhost';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="DB_NAME;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f9;16;16;16;;;;vpos;;v;;r'blogV1';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="DB_PASSWORD;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f9;15;20;15;;;;vpos;;v;;r'';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="DB_USER;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f9;14;16;14;;;;vpos;;v;;r'root';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="ERROR_REPORT;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f12;2;24;2;;;;vpos;;v;;r1;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="HOST;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f12;10;16;10;;;;vpos;;v;;r$_SERVER['HTTP_HOST';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="operation/basic_functions.php;PHP:PHP Include;C:\xampp\htdocs\work\blogV1\index.php;f9;2;38;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="PAGE_CHARSET;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f9;20;21;20;;;;vpos;;v;;r'UTF-8';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="PAGES_D;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f9;7;16;7;;;;vpos;;v;;rROOT_D.'pages\\';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="ROOT_D;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f9;6;15;6;;;;vpos;;v;;rdirname(__FILE__;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="theme/index.php;PHP:PHP Include;C:\xampp\htdocs\work\blogV1\index.php;f9;6;24;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="USER_NAME;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f9;23;18;23;;;;vpos;;v;;r'user_info';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WARNING_REPORT;PHP:PHP Word;C:\xampp\htdocs\work\blogV1\config.php;f12;3;26;3;;;;vpos;;v;;r1;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="basicFunctions;PHP:Class Name;C:\xampp\htdocs\work\blogV1\operation\Codelobster0.php;f0;2;1;10;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f0;2;1;24;;;;vpos;;v;;r;;d20,2;;b0,0;;m">
+				<treenode node="getPage;PHP:Function Name;C:\xampp\htdocs\work\blogV1\operation\Codelobster0.php;f8;4;2;8;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f8;4;2;21;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f8;4;2;21;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f8;4;2;21;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f8;4;2;21;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f8;4;2;22;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f8;4;2;22;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f8;4;2;22;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f8;4;2;22;;;;vpos;;v;;r;;d45,4;;b1,0;;mpage;;p">
+					<treenode node="_SERVER;PHP:Var Name;C:\xampp\htdocs\work\blogV1\operation\Codelobster0.php;f17;5;25;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="page;PHP:Var Name;C:\xampp\htdocs\work\blogV1\operation\Codelobster0.php;f2;5;7;5;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f25;4;30;4;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f25;4;30;4;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f25;4;30;4;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f25;4;30;4;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f25;4;30;4;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f25;4;30;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="theme;PHP:Var Name;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f9;7;15;7;;C:\xampp\htdocs\work\blogV1\operation\basic_functions.php;f9;7;15;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="ERROR;PHP:Class Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f0;2;1;47;;;;vpos;;v;;r;;d11,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f4;10;5;15;;;;vpos;;v;;r;;d26,10;;b0,0;;m">
+				</treenode>
+				<treenode node="echo_error;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f4;26;5;34;;;;vpos;;v;;r;;d25,26;;b0,0;;m">
+				</treenode>
+				<treenode node="set_error;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f4;16;5;20;;;;vpos;;v;;r;;d30,16;;b0,0;;merror;;p">
+					<treenode node="error;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f23;16;29;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set_warning;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f4;21;5;25;;;;vpos;;v;;r;;d32,21;;b0,0;;merror;;p">
+					<treenode node="error;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f25;21;31;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="show_error;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f4;35;5;40;;;;vpos;;v;;r;;d31,35;;b0,0;;merror;;p">
+					<treenode node="error;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f24;35;30;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="show_warning;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f4;41;5;46;;;;vpos;;v;;r;;d33,41;;b0,0;;merror;;p">
+					<treenode node="error;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f26;41;32;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="session;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\error\Error.php;f11;9;19;9;;;;vpos;;v;;r&#xA;Description&#xA;     Created by PhpStorm. User: kadir Date: 16.03.2014 Time: 23:46;;d-1,-1;;b1,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="fr_session;PHP:Class Name;C:\xampp\htdocs\work\blogV1\library\Codelobster0.php;f0;2;1;23;;C:\xampp\htdocs\work\blogV1\library\session\session.php;f0;2;1;34;;;;vpos;;v;;r;;d16,2;;b0,0;;m">
+				<treenode node="add;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\Codelobster0.php;f1;10;2;13;;C:\xampp\htdocs\work\blogV1\library\session\session.php;f1;10;2;13;;;;vpos;;vbool;;r&#xA;Description&#xA;     &#xA;&#xA;Parameters:&#xA;    string $key&#xA;    string - or array $value;;d26,10;;b0,0;;mstring $key;;pstring;;p">
+					<treenode node="_SESSION;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\Codelobster0.php;f2;12;11;12;;C:\xampp\htdocs\work\blogV1\library\session\session.php;f2;12;11;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\Codelobster0.php;f14;10;18;10;;C:\xampp\htdocs\work\blogV1\library\session\session.php;f14;10;18;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\Codelobster0.php;f19;10;25;10;;C:\xampp\htdocs\work\blogV1\library\session\session.php;f19;10;25;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f1;15;2;19;;;;vpos;;v;;r;;d19,15;;b0,0;;mkey;;p">
+					<treenode node="_SESSION;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f9;17;18;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f14;15;18;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get_value;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\Codelobster0.php;f1;15;2;19;;;;vpos;;v;;r;;d25,15;;b0,0;;mkey;;p">
+					<treenode node="_SESSION;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\Codelobster0.php;f9;17;18;17;;C:\xampp\htdocs\work\blogV1\library\session\session.php;f9;17;18;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\Codelobster0.php;f20;15;24;15;;C:\xampp\htdocs\work\blogV1\library\session\session.php;f20;15;24;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="is_session;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f1;21;2;23;;;;vpos;;v;;r;;d26,21;;b0,0;;mkey;;p">
+					<treenode node="_SESSION;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f15;22;24;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f21;21;25;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="is_value;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f1;25;2;29;;;;vpos;;v;;r;;d31,25;;b0,0;;mkey;;pvalue;;p">
+					<treenode node="_SESSION;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f5;26;14;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f19;25;23;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f24;25;30;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="liste;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f1;31;2;33;;;;vpos;;v;;r;;d17,31;;b0,0;;m">
+					<treenode node="_SESSION;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\session\session.php;f11;32;20;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_SESSION;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\Codelobster0.php;f11;21;20;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="login;PHP:Class Name;C:\xampp\htdocs\work\blogV1\inventory\Codelobster0.php;f0;2;1;14;;C:\xampp\htdocs\work\blogV1\inventory\login.php;f0;2;1;14;;;;vpos;;v;;r;;d11,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\work\blogV1\inventory\Codelobster0.php;f1;4;2;8;;C:\xampp\htdocs\work\blogV1\inventory\login.php;f1;4;2;8;;;;vpos;;v;;r;;d23,4;;b0,0;;m">
+				</treenode>
+				<treenode node="isLogin;PHP:Function Name;C:\xampp\htdocs\work\blogV1\inventory\Codelobster0.php;f1;9;2;12;;C:\xampp\htdocs\work\blogV1\inventory\login.php;f1;9;2;12;;C:\xampp\htdocs\work\blogV1\inventory\login.php;f1;9;2;12;;;;vpos;;v;;r;;d19,9;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="mysql_pdo;PHP:Class Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f0;2;1;169;;;;vpos;;v;;r;;d15,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;5;2;18;;;;vpos;;v;;r;;d23,5;;b0,0;;m">
+					<treenode node="e;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f19;14;21;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="options;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f8;7;16;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f3;9;8;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db_DELETE;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;162;2;168;;;;vpos;;v;;r;;d26,162;;b0,0;;mdata;;p">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f20;162;25;162;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db_INSERT_P;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;24;2;62;;;;vpos;;v;;r;;d28,24;;b0,0;;mveri;;p">
+					<treenode node="alanlar;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;36;10;36;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="alanlar_V;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;37;12;37;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dizi;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f42;39;47;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="execut;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;50;9;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;52;9;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;50;17;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="veri;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;24;27;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db_is_CONNECT;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;19;2;23;;;;vpos;;v;;r;;d30,19;;b0,0;;mveri;;p">
+					<treenode node="veri;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f24;19;29;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db_SELECT_P;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;63;2;114;;;;vpos;;v;;r;;d55,63;;b0,0;;mveri;;preturn;;p">
+					<treenode node="alanlar;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f4;93;12;93;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="alanlar_V;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;78;12;78;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="execut;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;102;9;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="gezici;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f31;92;38;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="kosul;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;79;8;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;109;9;109;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="return;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f28;63;35;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;102;17;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="veri;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;63;27;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db_UPDATE_P;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;115;2;161;;;;vpos;;v;;r;;d28,115;;b0,0;;mveri;;p">
+					<treenode node="alanlar;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;129;10;129;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="alanlar_V;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;130;12;130;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dizi;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f42;138;47;138;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="execut;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;150;9;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="kosul;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;131;8;131;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;152;9;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;150;17;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="veri;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;115;27;115;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="mysql;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f9;4;15;4;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="PDO_mysql;PHP:Class Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f0;2;1;169;;;;vpos;;v;;r;;d15,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f1;5;2;18;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;5;2;18;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;5;2;18;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;5;2;18;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;5;2;18;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;5;2;18;;;;vpos;;v;;r;;d23,5;;b0,0;;m">
+					<treenode node="e;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f19;14;21;14;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f19;14;21;14;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f19;14;21;14;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f19;14;21;14;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f19;14;21;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="options;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f8;7;16;7;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f8;7;16;7;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f8;7;16;7;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f8;7;16;7;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f8;7;16;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f3;9;8;9;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f3;9;8;9;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f3;9;8;9;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f3;9;8;9;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f3;9;8;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db_DELETE;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f1;162;2;168;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;162;2;168;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;162;2;168;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;162;2;168;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;162;2;168;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;162;2;168;;;;vpos;;v;;r;;d26,162;;b0,0;;mdata;;p">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f20;162;25;162;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f20;162;25;162;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f20;162;25;162;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f20;162;25;162;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f20;162;25;162;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f20;162;25;162;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db_INSERT_P;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f1;24;2;62;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;24;2;62;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;24;2;62;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;24;2;62;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;24;2;62;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;24;2;62;;;;vpos;;v;;r;;d28,24;;b0,0;;mveri;;p">
+					<treenode node="alanlar;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;36;10;36;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;36;10;36;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;36;10;36;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;36;10;36;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;36;10;36;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="alanlar_V;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;37;12;37;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;37;12;37;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;37;12;37;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;37;12;37;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;37;12;37;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dizi;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f42;39;47;39;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f42;39;47;39;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f42;39;47;39;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f42;39;47;39;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f42;39;47;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="execut;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;50;9;50;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;50;9;50;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;50;9;50;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;50;9;50;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;50;9;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;52;9;52;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;52;9;52;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;52;9;52;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;52;9;52;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;52;9;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f12;50;17;50;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;50;17;50;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;50;17;50;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;50;17;50;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;50;17;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="veri;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f22;24;27;24;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;24;27;24;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;24;27;24;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;24;27;24;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;24;27;24;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;24;27;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db_is_CONNECT;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f1;19;2;23;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;19;2;23;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;19;2;23;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;19;2;23;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;19;2;23;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;19;2;23;;;;vpos;;v;;r;;d30,19;;b0,0;;mveri;;p">
+					<treenode node="veri;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f24;19;29;19;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f24;19;29;19;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f24;19;29;19;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f24;19;29;19;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f24;19;29;19;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f24;19;29;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db_SELECT_P;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f1;63;2;114;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;63;2;114;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;63;2;114;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;63;2;114;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;63;2;114;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;63;2;114;;;;vpos;;v;;r;;d55,63;;b0,0;;mveri;;preturn;;p">
+					<treenode node="alanlar;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f4;93;12;93;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f4;93;12;93;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f4;93;12;93;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f4;93;12;93;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f4;93;12;93;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="alanlar_V;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;78;12;78;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;78;12;78;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;78;12;78;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;78;12;78;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;78;12;78;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="execut;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;102;9;102;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;102;9;102;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;102;9;102;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;102;9;102;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;102;9;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="gezici;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f31;92;38;92;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f31;92;38;92;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f31;92;38;92;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f31;92;38;92;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f31;92;38;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="kosul;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;79;8;79;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;79;8;79;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;79;8;79;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;79;8;79;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;79;8;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;109;9;109;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;109;9;109;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;109;9;109;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;109;9;109;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;109;9;109;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="return;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f28;63;35;63;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f28;63;35;63;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f28;63;35;63;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f28;63;35;63;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f28;63;35;63;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f28;63;35;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f12;102;17;102;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;102;17;102;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;102;17;102;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;102;17;102;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;102;17;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="veri;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f22;63;27;63;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;63;27;63;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;63;27;63;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;63;27;63;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;63;27;63;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;63;27;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db_UPDATE_P;PHP:Function Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f1;115;2;161;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;115;2;161;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;115;2;161;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;115;2;161;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;115;2;161;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f1;115;2;161;;;;vpos;;v;;r;;d28,115;;b0,0;;mveri;;p">
+					<treenode node="alanlar;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;129;10;129;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;129;10;129;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;129;10;129;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;129;10;129;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;129;10;129;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="alanlar_V;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;130;12;130;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;130;12;130;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;130;12;130;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;130;12;130;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;130;12;130;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dizi;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f42;138;47;138;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f42;138;47;138;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f42;138;47;138;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f42;138;47;138;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f42;138;47;138;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="execut;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;150;9;150;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;150;9;150;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;150;9;150;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;150;9;150;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;150;9;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="kosul;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;131;8;131;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;131;8;131;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;131;8;131;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;131;8;131;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;131;8;131;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f2;152;9;152;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;152;9;152;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;152;9;152;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;152;9;152;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f2;152;9;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f12;150;17;150;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;150;17;150;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;150;17;150;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;150;17;150;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f12;150;17;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="veri;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f22;115;27;115;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;115;27;115;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;115;27;115;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;115;27;115;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;115;27;115;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f22;115;27;115;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="mysql;PHP:Var Name;C:\xampp\htdocs\work\blogV1\library\database\Codelobster0.php;f9;4;15;4;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f9;4;15;4;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f9;4;15;4;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f9;4;15;4;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f9;4;15;4;;C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php;f9;4;15;4;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="_GET;PHP:Var Name;C:\xampp\htdocs\work\blogV1\Codelobster0.php;f8;3;13;3;;C:\xampp\htdocs\work\blogV1\theme\Codelobster0.php;f15;7;20;7;;C:\xampp\htdocs\work\blogV1\theme\index.php;f15;7;20;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_SERVER;PHP:Var Name;C:\xampp\htdocs\work\blogV1\theme\gray\anasayfa.php;f29;1;37;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="bfunction;PHP:Var Name;C:\xampp\htdocs\work\blogV1\theme\Codelobster0.php;f5;9;15;9;;C:\xampp\htdocs\work\blogV1\theme\index.php;f5;9;15;9;;C:\xampp\htdocs\work\blogV1\index.php;f0;5;10;5;;;;vposbasicFunctions;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="page;PHP:Var Name;C:\xampp\htdocs\work\blogV1\Codelobster0.php;f0;3;5;3;;C:\xampp\htdocs\work\blogV1\theme\Codelobster0.php;f1;7;6;7;;C:\xampp\htdocs\work\blogV1\theme\index.php;f1;7;6;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="theme;PHP:Var Name;C:\xampp\htdocs\work\blogV1\theme\Codelobster0.php;f8;3;14;3;;C:\xampp\htdocs\work\blogV1\theme\index.php;f8;3;14;3;;C:\xampp\htdocs\work\blogV1\index.php;f0;4;6;4;;;;vposbasicFunctions;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="title;PHP:Var Name;C:\xampp\htdocs\work\blogV1\theme\gray\anasayfa.php;f6;2;12;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<dbgurls>
+	</dbgurls>
+	<filescache>
+		<file name="C:\xampp\htdocs\work\blogV1\theme\gray\subs\header.php" crc="-1077354259"/>
+		<file name="C:\xampp\htdocs\work\blogV1\theme\gray\index.php" crc="165085845"/>
+		<file name="C:\xampp\htdocs\work\blogV1\theme\gray\error.php" crc="-577108349"/>
+		<file name="C:\xampp\htdocs\work\blogV1\theme\index.php" crc="1572579799"/>
+		<file name="C:\xampp\htdocs\work\blogV1\pages\post.php" crc="109241667"/>
+		<file name="C:\xampp\htdocs\work\blogV1\pages\index.php" crc="1604745361"/>
+		<file name="C:\xampp\htdocs\work\blogV1\pages\error.php" crc="1604745361"/>
+		<file name="C:\xampp\htdocs\work\blogV1\operation\basic_functions.php" crc="520621388"/>
+		<file name="C:\xampp\htdocs\work\blogV1\library\session\session.php" crc="-932782244"/>
+		<file name="C:\xampp\htdocs\work\blogV1\library\error\Error.php" crc="1512165360"/>
+		<file name="C:\xampp\htdocs\work\blogV1\library\database\mysql_pdo.php" crc="1358579908"/>
+		<file name="C:\xampp\htdocs\work\blogV1\inventory\login.php" crc="-699430014"/>
+		<file name="C:\xampp\htdocs\work\blogV1\DATABASE_FILE\create_tables\users.txt" crc="1580239611"/>
+		<file name="C:\xampp\htdocs\work\blogV1\DATABASE_FILE\create_tables\settings.txt" crc="2044908600"/>
+		<file name="C:\xampp\htdocs\work\blogV1\DATABASE_FILE\create_tables\posts.txt" crc="194150372"/>
+		<file name="C:\xampp\htdocs\work\blogV1\DATABASE_FILE\create_tables\categories.txt" crc="1966110008"/>
+		<file name="C:\xampp\htdocs\work\blogV1\index.php" crc="-609246087"/>
+		<file name="C:\xampp\htdocs\work\blogV1\config.php" crc="1235497043"/>
+	</filescache>
+</project>

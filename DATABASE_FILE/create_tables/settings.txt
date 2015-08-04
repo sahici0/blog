@@ -1,0 +1,5 @@
+CREATE TABLE `blogv1`.`settings` (
+  `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `name` VARCHAR(50) NULL COMMENT '',
+  `value` VARCHAR(50) NULL COMMENT '',
+  PRIMARY KEY (`id`)  COMMENT '');
