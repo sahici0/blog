@@ -11,10 +11,12 @@
     define('HOST',$_SERVER['HTTP_HOST']);
     
     //DB Bilgileri
+    define('DATABASE','mysql_pdo.php'); //DB library
+    
 	define('DB_HOST','localhost');
 	define('DB_USER','root');
 	define('DB_PASSWORD','');
-	define('DB_NAME','blogV1');
+	define('DB_NAME','blogv1');
 	
 	// Karakter seti
 	define('DB_CHARSET','UTF8');

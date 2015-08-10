@@ -1,6 +1,6 @@
 <?php
 
-class ERROR{
+class lib_error{
     /**
      * Created by PhpStorm.
      * User: kadir
@@ -10,8 +10,6 @@ class ERROR{
     public $session;
     function __construct(){
 
-        yukleyici('data','session/Session');
-        $this->session = new SESSION();
 
     }
     function set_error($error){

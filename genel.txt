@@ -1,0 +1,5 @@
+GLOBAL DEĞİŞKENLER
+
+$theme = tema ismini içerir
+$page  = yüklenen sayfa bilgisini tutar
+$db	   = veri tabanı clasını hazır tutar

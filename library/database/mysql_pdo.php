@@ -1,28 +1,25 @@
 <?php
 
-class mysql_pdo{
+class library_sql{
 
 	private $mysql = NULL;	
 	function __construct(){
-	try{
-        $options = array(PDO::MYSQL_ATTR_INIT_COMMAND  => 'SET NAMES '.DB_CHARSET);
+		
+		try{
+	        $options = array(PDO::MYSQL_ATTR_INIT_COMMAND  => 'SET NAMES '.DB_CHARSET);
 
-			$this->mysql = new PDO(PROVIDER.';host:'.DB_HOST,DB_USER,DB_PASSWORD,$options);
-			// $db_ = new PDO("mysql:host=localhost;dbname=haber","root","");
-			if(!$this->mysql){
-				exit("PDO_MYSQL : Bağlantı Sorunu");
+				$this->mysql = new PDO('mysql:dbname='.DB_NAME.';host:'.DB_HOST,DB_USER,DB_PASSWORD,$options);
+				// $ = new PDO("mysql:host=localhost;dbname=haber","root","");
+				if(!$this->mysql){
+					exit("PDO_MYSQL : Bağlantı Sorunu");
+				}
+			}catch(Exception $e){
+				exit("PDO_MYSQL ||#|| CONNECTION  ; ".$e->getMessage());
 			}
-		}catch(Exception $e){
-			exit("PDO_MYSQL ||#|| CONNECTION  ; ".$e->getMessage());
-		}
 		
 	}
-	function db_is_CONNECT($veri){
-
-		
-		
-	}
-	function db_INSERT_P($veri){
+	
+	function INSERT_P($veri){
 		/*
 		@date 30.01.2014
 		@param $veri = array(
@@ -61,7 +58,7 @@ class mysql_pdo{
 		return $result;
 					
 	}
-	function db_SELECT_P($veri,$return = PDO::FETCH_ASSOC){
+	function SELECT_P($veri,$return = PDO::FETCH_ASSOC){
 		/*
 		@date 30.01.2014
 		@param	$veri = array(
@@ -104,7 +101,7 @@ class mysql_pdo{
 								$alanlar.
 								' FROM '.
 								$veri['tablo'].
-								$kosul	
+								$kosul
 		);
 		
 		$result = $execut->execute() ? $execut->fetchAll($return) : false;
@@ -113,7 +110,7 @@ class mysql_pdo{
 		return $result;
 	
 	}
-	function db_UPDATE_P($veri){
+	function UPDATE_P($veri){
 						/*
 		@date 10.02.2014
 		@param $veri = array(
@@ -160,7 +157,7 @@ class mysql_pdo{
 		// sonucu false veya son id eez< döndürür
 		return $result;
 	}
-	function db_DELETE($data){
+	function DELETE($data){
 		/*
 		
 			Daha Sonra Yazılacak

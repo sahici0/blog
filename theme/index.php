@@ -1,21 +1,23 @@
 <?php
+	global $glob;
 	
+	$glob['theme']['name'] = $glob['theme']['class']->get_theme();
 	
-	global $theme;
-	/***
-		HEADER Yükletiliyor
-	***/
-	include($theme.'/subs/header.php');
-	
+	$theme = $glob['theme']['name'];
 	/**
 	* 
 	* CONTENT Kısmı Yükletiriliyor
 	* 
-	*/
+	*/	
 	$page = isset($_GET['page']) ? $_GET['page'] : 'index';
+	/***
+		HEADER Yükletiliyor
+	***/
 	
-	if(!$bfunction->getPage($page))
-		$bfunction->getPage("error");
-		
-	include($theme.'/subs/footer.php');
+	
+	include(ROOT_D.'/theme/'.$theme.'/subs/header.php');
+	
+	$glob['bfunctions']['class']->getUrlPage($page);
+	
+	include(ROOT_D.'/theme/'.$theme.'/subs/footer.php');
 ?>

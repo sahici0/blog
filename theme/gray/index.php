@@ -1,4 +1,4 @@
 <?php
 	
-	echo "BURASI GRAY TEMASI İNDEX DEĞERİ";
+	echo "BURASI GRAYY TEMASI İNDEX DEĞERİ";
 ?>
